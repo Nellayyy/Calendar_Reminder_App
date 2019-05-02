@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Calendar_Reminder_App</string>
+    <string name="email_hint" />
+    <string name="password_hint" />
+    <string name="name_hint" />
+    <string name="login_button_label" />
+    <string name="sign_up_button_label" />
+    <string name="sign_up_text" />
 </resources>
