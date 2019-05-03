@@ -1,10 +1,14 @@
 <resources>
     <string name="app_name">Calendar_Reminder_App</string>
-    <string name="email_hint">Email</string>
-    <string name="password_hint">Password</string>
-    <string name="name_hint">Name</string>
-    <string name="login_button_label">Login</string>
-    <string name="sign_up_button_label">Sign up</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Name</string>
+    <string name="login_button_caption">Login</string>
+    <string name="sign_up_button_caption">Sign up</string>
     <string name="sign_up_text">Would you like to sign up?</string>
-    <string name="test">test string</string>
+    <string name="error_authentication">Authentication Error!</string>
+    <string name="sign_up_field_error">Make sure you entered a valid email address, password, and name in the field.</string>
+    <string name="error_login">Login Error!</string>
+    <string name="login_field_error">Be sure you have a valid email and password.</string>
+    <string name="title_welcome">Welcome to OurPlanner!</string>
 </resources>
