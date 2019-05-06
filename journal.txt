@@ -1,0 +1,7 @@
+5/2/19 - Today we were figuring out everyone's roles. We made sure that had everyone try to do the thingsthey are good at and specialize in.
+
+5/3/19 - The main thing we all did today was work on the user_activity.xml for the signup/login page for the app, and work on the UserActivity.java 
+	to allow the user to choose to sign up or login, and allow the user to create a profile. 
+	
+5/6/19 - Our goal for today was to finish the code in the UserActivity.java to allow a user to sign up or log in to the app. We were able to finish 
+	the code, we still need to finish up the Hayden is working logos and designs in photoshop for original content for the application. 
