@@ -4,4 +4,6 @@
 	to allow the user to choose to sign up or login, and allow the user to create a profile. 
 	
 5/6/19 - Our goal for today was to finish the code in the UserActivity.java to allow a user to sign up or log in to the app. We were able to finish 
-	the code, we still need to finish up the Hayden is working logos and designs in photoshop for original content for the application. 
+	the code, we still need to finish up the Hayden is working logos and designs in photoshop for original content for the application. Also added
+	in "<uses-permission android:name="android.permission.INTERNET"></uses-permission>" and "<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>"
+	to the AndroidManifest.xml file.
