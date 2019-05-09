@@ -17,9 +17,9 @@ public class UserActivity extends AppCompatActivity {
     EditText mEmailEditText;
     EditText mPasswordEditText;
     EditText mNameEditText;
-    Button mLoginButton;
     TextView mSignUpTextView;
     Button mSignUpButton;
+    Button mLoginButton;
     String APP_ID;
     String API_KEYS;
     BackendlessUser mBackendlessUser = new BackendlessUser();
@@ -45,7 +45,7 @@ public class UserActivity extends AppCompatActivity {
                     mNameEditText.setVisibility(View.VISIBLE);
                     mSignUpButton.setVisibility(View.VISIBLE);
                     mLoginButton.setVisibility(View.GONE);
-                    mSignUpTextView.setText("Cancel Sign Up");}
+                    mSignUpTextView.setText("Cancel the Sign Up");}
                 else{
                     mNameEditText.setVisibility(View.GONE);
                     mSignUpButton.setVisibility(View.GONE);
@@ -68,11 +68,11 @@ public class UserActivity extends AppCompatActivity {
                     Backendless.UserService.register(mBackendlessUser, new AsyncCallback<BackendlessUser>() {
                         @Override
                         public void handleResponse(BackendlessUser response) {
-                            Log.i(TAG, "Registration successful for " + response.getEmail());
+                            Log.i(TAG, "Successful registration for " + response.getEmail());
                         }
                         @Override
                         public void handleFault(BackendlessFault fault) {
-                            Log.i(TAG, "Registration failed " + fault.getMessage());
+                            Log.i(TAG, "The registration has failed " + fault.getMessage());
                         }
                     });
                 } else {
@@ -95,11 +95,11 @@ public class UserActivity extends AppCompatActivity {
                     Backendless.UserService.login(userEmail, password, new AsyncCallback<BackendlessUser>() {
                         @Override
                         public void handleResponse(BackendlessUser response) {
-                            Log.i(TAG, "Login Successful for " + response.getEmail());
+                            Log.i(TAG, "Successful Login for " + response.getEmail());
                         }
                         @Override
                         public void handleFault(BackendlessFault fault) {
-                            Log.i(TAG, "Login Failed " + fault.getMessage());
+                            Log.i(TAG, "Login has failed " + fault.getMessage());
                         }
                     });
                 }
