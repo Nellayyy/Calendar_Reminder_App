@@ -1,3 +1,4 @@
 (5/3/19) v0.0.1 - created login screen for users, implemented backendless, basic screen layout, hayden is creating better layout for it. 
 (5/8/19) v0.0.2 - code for login screen done, login / sign up layout work in progress, starting calendar code and layout, starting todo 
 		  list code and layout.
+(5/10/19) v0.0.3 - 
