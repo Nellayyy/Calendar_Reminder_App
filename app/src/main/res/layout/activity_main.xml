@@ -2,17 +2,110 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    //Enter Email
+    <EditText
+        android:id="@+id/enter_email"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginStart="@dimen/spacer"
+        android:layout_marginEnd="@dimen/spacer"
+        android:textColor="@color/white"
+        android:textColorHint="@color/colorHint"
+        android:ems="10"
+        android:hint="@string/hint_email"
+        app:layout_constraintEnd_toEndOf="@+id/title_text"
+        app:layout_constraintStart_toStartOf="@+id/title_text"
+        app:layout_constraintTop_toBottomOf="@+id/title_text">
+        <requestFocus />
+    </EditText>
 
+    //Enter Password
+    <EditText
+        android:id="@+id/enter_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacer"
+        android:layout_marginEnd="@dimen/spacer"
+        android:hint="@string/hint_password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/colorHint"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/enter_email"
+        app:layout_constraintStart_toStartOf="@+id/enter_email"
+        app:layout_constraintTop_toBottomOf="@+id/enter_email" />
+
+    //Enter Name
+    <EditText
+        android:id="@+id/enter_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacer"
+        android:layout_marginEnd="@dimen/spacer"
+        android:hint="@string/hint_name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/colorHint"
+        app:layout_constraintEnd_toEndOf="@+id/enter_password"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/enter_password"
+        app:layout_constraintTop_toBottomOf="@id/enter_password" />
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacer"
+        android:layout_marginTop="@dimen/spacer"
+        android:layout_marginEnd="@dimen/spacer"
+        android:text="@string/login_button_caption"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/enter_name"
+        app:layout_constraintStart_toStartOf="@+id/enter_name"
+        app:layout_constraintTop_toBottomOf="@+id/enter_name" />
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacer"
+        android:layout_marginTop="@dimen/spacer"
+        android:layout_marginEnd="@dimen/spacer"
+        android:text="@string/sign_up_button_caption"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/sign_up_text"
+        app:layout_constraintStart_toStartOf="@+id/sign_up_text"
+        app:layout_constraintTop_toBottomOf="@+id/sign_up_text" />
+    <TextView
+        android:id="@+id/sign_up_text"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacer"
+        android:layout_marginTop="@dimen/spacer"
+        android:layout_marginEnd="@dimen/spacer"
+        android:gravity="center"
+        android:text="@string/sign_up_text"
+        app:layout_constraintEnd_toEndOf="@+id/login_button"
+        app:layout_constraintStart_toStartOf="@+id/login_button"
+        app:layout_constraintTop_toBottomOf="@id/login_button" />
+    <TextView
+        android:id="@+id/title_text"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="244dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="@string/title_welcome"
+        android:textIsSelectable="false"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
