@@ -1,4 +1,5 @@
 (5/3/19) v0.0.1 - created login screen for users, implemented backendless, basic screen layout, hayden is creating better layout for it. 
 (5/8/19) v0.0.2 - code for login screen done, login / sign up layout work in progress, starting calendar code and layout, starting todo 
 		  list code and layout.
-(5/10/19) v0.0.3 - 
+(5/10/19) v0.0.3 - finished user_activity.xml, still working on calendar and todolist (java and xml)
+(5/16/19) v0.0.4 - calendar_activity.xml finished, still working in calendar (java) and to do list (java and xml). limited time this week did not allow much time for coding.
