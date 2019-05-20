@@ -7,5 +7,5 @@
 	
 5/20/19 - This week has not been the best for our group to work on the project. The keystones, the odd adjusted schedule, and the senior tripmade us have
 	less time to code this app. Some of us plan to take the project home and work on it outside of class in order to get more code done in the application.
-	This week we were able to work on and finish some of the xml files (such as calendar_view.xml, stats_view.xml, etc.) thanks to Hayden. 
-	Without his designing skills, we wouldn't have the same quality on the xml files. 
+	This week we were able to work on and finish some of the xml files (such as calendar_view.xml, stats_view.xml, etc.) thanks to Hayden. Without 
+	his designing skills, we wouldn't have the same quality on the xml files. 
