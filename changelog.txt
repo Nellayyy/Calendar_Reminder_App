@@ -2,4 +2,5 @@
 (5/8/19) v0.0.2 - code for login screen done, login / sign up layout work in progress, starting calendar code and layout, starting todo 
 		  list code and layout.
 (5/10/19) v0.0.3 - finished user_activity.xml, still working on calendar and todolist (java and xml)
-(5/16/19) v0.0.4 - calendar_activity.xml finished, still working in calendar (java) and to do list (java and xml). limited time this week did not allow much time for coding.
+(5/16/19) v0.0.4 - calendar_activity.xml finished, still working in calendar (java) and to do list (java). limited time this week did not allow much time for coding.
+(5/20/19) v0.0.5 - working on todolist.java and calendar.java, stats_view.xml in progress, todolist_view.xml soon in progress. keystones and senior trip lessened time to work on application. 
