@@ -37,6 +37,7 @@
         android:layout_marginStart="@dimen/spacer"
         android:layout_marginEnd="@dimen/spacer"
         android:hint="@string/hint_name"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="@+id/enter_password"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/enter_password"

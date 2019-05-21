@@ -1,5 +1,7 @@
 package com.androidproject19.calendar_reminder_app;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -28,6 +30,7 @@ public class UserActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.user_activity);
+        addListenerOnButton();
         mEmailEditText = (EditText)findViewById(R.id.enter_email);
         mPasswordEditText = (EditText)findViewById(R.id.enter_password);
         mNameEditText = (EditText)findViewById(R.id.enter_name);
@@ -42,14 +45,14 @@ public class UserActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (mSignUpTextView.getText() == getString(R.string.sign_up_button_caption)){
-                    mNameEditText.setVisibility(View.VISIBLE);
-                    mSignUpButton.setVisibility(View.VISIBLE);
-                    mLoginButton.setVisibility(View.GONE);
-                    mSignUpTextView.setText("Cancel the Sign Up");}
-                else{
                     mNameEditText.setVisibility(View.GONE);
                     mSignUpButton.setVisibility(View.GONE);
                     mLoginButton.setVisibility(View.VISIBLE);
+                    mSignUpTextView.setText("Sign up?");}
+                else{
+                    mNameEditText.setVisibility(View.VISIBLE);
+                    mSignUpButton.setVisibility(View.VISIBLE);
+                    mLoginButton.setVisibility(View.GONE);
                     mSignUpTextView.setText(getString(R.string.sign_up_button_caption));
                 }
             }
@@ -113,5 +116,27 @@ public class UserActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+    public void addListenerOnButton() {
+        final Context context = this;
+        mSignUpButton = (Button) findViewById(R.id.sign_up_button);
+        mLoginButton = (Button) findViewById(R.id.login_button);
+        mSignUpButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent intent = new Intent(context, CalendarActivity.class);
+                startActivity(intent);
+            }
+
+        });
+
+        mLoginButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, CalendarActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
