@@ -1,6 +1,27 @@
-(5/3/19) v0.0.1 - created login screen for users, implemented backendless, basic screen layout, hayden is creating better layout for it. 
-(5/8/19) v0.0.2 - code for login screen done, login / sign up layout work in progress, starting calendar code and layout, starting todo 
-		  list code and layout.
-(5/10/19) v0.0.3 - finished user_activity.xml, still working on calendar and todolist (java and xml)
-(5/16/19) v0.0.4 - calendar_activity.xml finished, still working in calendar (java) and to do list (java). limited time this week did not allow much time for coding.
-(5/20/19) v0.0.5 - working on todolist.java and calendar.java, stats_view.xml in progress, todolist_view.xml soon in progress. keystones and senior trip lessened time to work on application. 
+(5/3/19) v0.0.1: 
+	- created login screen for users
+	- implemented backendless, basic screen layout, hayden is creating better layout for it. 
+(5/8/19) v0.0.2:
+	- code for login screen done 
+	- login / sign up layout work in progress
+	- starting calendar code and layout
+	- starting todo list code and layout.
+(5/10/19) v0.0.3:
+	- finished user_activity.xml 
+	- still working on calendar and todolist (java and xml)
+(5/16/19) v0.0.4:
+	- calendar_activity.xml finished
+	- still working in calendar (java) and to do list (java)
+	- limited time this week did not allow much time for coding.
+(5/20/19) v0.0.5:
+	- working on todolist.java and calendar.java
+	- stats_view.xml in progress
+	- todolist_view.xml soon in progress
+	- keystones and senior trip lessened time to work on application. 
+(5/22/19) v0.0.6:
+	- fixed login bug where buttons would be flipped on login and sign up
+		ex. after switching back from "Want to sign up?" and "Cancel Sign Up" one time, the login button would be at the sign up screen and the sign up button would be at the login screen
+	- currently working on bug that won't switch from user_activity.xml to calendar_view.xml after logging in or signing up
+	- still working on todolist and calendaractivity java classes
+	- finshed event_view.xml (where to create an event for a day)
+	- started stats_view.xml
