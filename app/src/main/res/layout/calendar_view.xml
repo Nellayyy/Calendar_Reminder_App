@@ -16,5 +16,17 @@
         android:theme="@style/CalenderViewCustom"
         android:dateTextAppearance="@style/CalenderViewDateCustomText"
         android:weekDayTextAppearance="@style/CalenderViewWeekCustomText" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacer"
+        android:layout_marginTop="@dimen/spacer"
+        android:layout_marginEnd="@dimen/spacer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/calendarView"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:text="Create event"/>
 
 </android.support.constraint.ConstraintLayout>

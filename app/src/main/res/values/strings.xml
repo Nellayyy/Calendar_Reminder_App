@@ -11,4 +11,5 @@
     <string name="error_login">Login Error!</string>
     <string name="login_field_error">Be sure you have a valid email and password.</string>
     <string name="title_welcome">Welcome to OurPlanner!</string>
+    <string name="create_event_title">Create New Event</string>
 </resources>
