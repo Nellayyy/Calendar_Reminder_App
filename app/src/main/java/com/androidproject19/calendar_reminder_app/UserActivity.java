@@ -1,6 +1,5 @@
 package com.androidproject19.calendar_reminder_app;
 
-import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -30,7 +29,6 @@ public class UserActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.user_activity);
-        addListenerOnButton();
         mEmailEditText = (EditText)findViewById(R.id.enter_email);
         mPasswordEditText = (EditText)findViewById(R.id.enter_password);
         mNameEditText = (EditText)findViewById(R.id.enter_name);
@@ -72,6 +70,8 @@ public class UserActivity extends AppCompatActivity {
                         @Override
                         public void handleResponse(BackendlessUser response) {
                             Log.i(TAG, "Successful registration for " + response.getEmail());
+                            Intent intent = new Intent(getApplicationContext(), CalendarActivity.class);
+                            startActivity(intent);
                         }
                         @Override
                         public void handleFault(BackendlessFault fault) {
@@ -99,6 +99,8 @@ public class UserActivity extends AppCompatActivity {
                         @Override
                         public void handleResponse(BackendlessUser response) {
                             Log.i(TAG, "Successful Login for " + response.getEmail());
+                            Intent intent = new Intent(getApplicationContext(), CalendarActivity.class);
+                            startActivity(intent);
                         }
                         @Override
                         public void handleFault(BackendlessFault fault) {
@@ -116,27 +118,5 @@ public class UserActivity extends AppCompatActivity {
                 }
             }
         });
-    }
-    public void addListenerOnButton() {
-        final Context context = this;
-        mSignUpButton = (Button) findViewById(R.id.sign_up_button);
-        mLoginButton = (Button) findViewById(R.id.login_button);
-        mSignUpButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0) {
-                Intent intent = new Intent(context, CalendarActivity.class);
-                startActivity(intent);
-            }
-
-        });
-
-        mLoginButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(context, CalendarActivity.class);
-                startActivity(intent);
-            }
-        });
-
     }
 }
