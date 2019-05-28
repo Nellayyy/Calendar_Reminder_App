@@ -1,0 +1,2 @@
+# Calendar_Reminder_App
+This is the Calendar Reminder app created by students at Dover Area High School. The devs of this app are Xavier Davis, Noah Elliott, Adam Huber, Hayden Sanderson, and Frankie White, who is our fearless leader. The goal of this app is to allow users to have the ability to create events and keep track of a calendar, and have fun doing it with stats and achievements. This application will allow friends and family members to collaborate on those events and add to a reminder list for those specific events.
