@@ -1,8 +1,15 @@
 CALENDAR PROJECT Time outside of class 
 
-5/19/19 ~ 20 minutes -starting todolist.java
-5/22/19 ~ 30 minutes -finishing todolist.java
-5/23/19 ~ 35 minutes -fixed bug where login and signup button would not do anything after being clicked
-5/24/19 ~ 60-80 minutes - working on new files, (stability,design) with Adam and Frankie 
-5/25/19 ~ 30 minutes -merging files with Frankie and Adam 
-5/26/19 ~ 180 minutes - trying to recover what we lost Frankie,Xavier,adam
+5/19/19 ~ 20 minutes- starting todolist.java todolist.xml (Xavier)
+5/21/19 ~ 1 hour- making event_view.xml(Frankie)
+5/21/19 ~ 20 minutes- found bug with login and signup button and tried fixing (Noah)
+5/22/19 ~ 30 minutes- finishing todolist.java and todolist.xml (Xavier)
+5/22/19 ~ 35 minutes- continued working on bug with signup/login button, also researched ways to patch bug (Noah)
+5/22/19 ~ 1 hour- Creating event.java and getting it to open an event when a date is pressed (Frankie)
+5/23/19 ~ 30 minutes- officially fixed bug where login and signup buttons would not do anything (Noah)
+5/24/19 ~ 60-80 minutes- working on new files, stability, design (Adam and Frankie) 
+5/24/19 ~ 1 hour- event.java (Frankie)
+5/24/19 ~ 40-60 minutes- working on userhostmember.java (Adam)
+5/25/19 ~ 30 minutes- merging files with (Frankie and Adam) 
+5/26/19 ~ 180 minutes- trying to recover what we lost (Frankie, Xavier, Adam)
+5/27/19 ~ 60 minutes- worked on stats_view.xml and made sure it worked (Hayden)
