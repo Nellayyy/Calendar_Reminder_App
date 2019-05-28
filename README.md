@@ -4,3 +4,11 @@ This is the Calendar Reminder app created by students at Dover Area High School.
 You need a device with at least API 21 (Lollipop) and above, and a program to put the code on and run it on. Best program to use is Android Studio, which is what we used. 
 
 Once the app loads up, the user will be asked to sign up or log in (if you have already made an account) in order to continue. Once it loads you will see the calendar and you can select a day to create events, collaborate with others on events where you want multiple people on, create a to do list, and be able to see stats of how many events you've completed and how many days in a row events were completed. This encourages the user to complete those tasks and not get off task, through the use of stats and achievements. 
+## Built with
+* Android Studio
+## Devs
+* Adam Huber
+* Franki White
+* Hayden Sanderson
+* Noah Elliott
+* Xavier Davis
